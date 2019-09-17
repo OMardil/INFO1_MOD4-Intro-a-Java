@@ -3,20 +3,20 @@
 ### 1. Descargar Java
 Abre la página [Java Platform (JDK) 12](https://www.oracle.com/technetwork/java/javase/downloads/index.html).
 
-Haz click en Download
+En la sección Java Platform (JDK) 12, haz click en DOWNLOAD.
 ![Image](img/img1.png)
 
-Navega hasta la parte que indica la plataforma. Acepta la ligencia y elige la versión ejecutable (con terminación .exe): 
+Navega hasta la parte de abajo, y selecciona la versión de `Windows`. Acepta la ligencia y elige la versión ejecutable (con terminación .exe): 
 `jdk-12.0.2_windows-x64_bin.exe`
 ![Image](img/img2.png)
 
-Descárga el JDK y haz doble click sobre el archivo.
+Descarga y ejecuta el archivo descargado.
 
 ### Instalación
-Ejecuta el instalador hasta que Java sea instalado en tu computadora.
+Ejecuta el wizard.
 ![Step1](img/img3.png)
 
-Identifica el folder en el que estás realizando la instalación. Por defecto, Java propone:
+Identifica el folder en el que se está realizando la instalación. Por defecto, Java propone:
 `C:\Program Files\Java\jdk-12.0.2\`
 ![Step1](img/img4.png)
 
@@ -32,6 +32,8 @@ En consola, escribe la instrucción
 
 El mensaje `'java' is not recognized as an internal or external command,
 operable program or batch file.` deberá aparecer.
+
+NOTA: En este momento Java ya está instalado y es utilizable, pero 
 
 ![Step5](img/img6_3.png)
 
