@@ -65,4 +65,36 @@ En consola, escribe la instrucción
 
 La versión que elegiste al instalar la aplicación deberá aparecer aquí.
 ![Step5](img/img13.png)
+
+
 ## Mac OS X
+
+### ¿Necesito descargar Java?
+Antes de realizar los siguientes pasos, abre una sesión de Terminal. Para esto, busca el programa el Spotlight. 
+![Version](img/img_mac_0_1.jpg)
+
+En Terminal, escribe las siguientes instrucciones:
+`java -version`
+`javac -version`
+
+![Version](img/img_mac_0_2.jpg)
+
+Si ambas ejecuciones te muestran alguna versión de Java instalada, como Open JDK o AdoptOpenJDK, no es necesario que continúes con este proceso, pues ya tienes Java instalado 😉. 
+
+### Descargar
+Abre la página [Adopt Open JDK](https://adoptopenjdk.net/).
+
+Selecciona la opción OpenJDK 12, y la JVM Hotspot. Descarga el archivo y ejecútalo.
+![Version](img/img_mac_1.jpg)
+
+### Instalación
+Continúa el instalador hasta que Java haya sido instalado en en la ruta:
+`/Library/Java/JavaVirtualMachines/`
+
+### Verificación
+De nuevo en la Terminal, ejecuta el siguiente comando:
+`ls /Library/Java/JavaVirtualMachines/`
+
+Aquí deberías de poder ver la instalación `adoptopenjdk-11.jdk`. Si logras ver el folder, ejecuta los comandos:
+`java -version`
+`javac -version`
