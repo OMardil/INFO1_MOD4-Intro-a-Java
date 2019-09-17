@@ -91,10 +91,19 @@ Selecciona la opción OpenJDK 12, y la JVM Hotspot. Descarga el archivo y ejecú
 Continúa el instalador hasta que Java haya sido instalado en en la ruta:
 `/Library/Java/JavaVirtualMachines/`
 
+![Instalador](img/img_mac_2.jpg)
+![Instalador](img/img_mac_4.jpg)
+
+
 ### Verificación
 De nuevo en la Terminal, ejecuta el siguiente comando:
 `ls /Library/Java/JavaVirtualMachines/`
 
+![Instalador](img/img_mac_5.jpg)
+
 Aquí deberías de poder ver la instalación `adoptopenjdk-11.jdk`. Si logras ver el folder, ejecuta los comandos:
 `java -version`
 `javac -version`
+
+
+![Verificacion](img/img_mac_6.jpg)
