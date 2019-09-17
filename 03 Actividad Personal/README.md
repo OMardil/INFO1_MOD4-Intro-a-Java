@@ -13,6 +13,7 @@ Navega hasta la parte de abajo, y selecciona la versión de `Windows`. Acepta la
 Descarga y ejecuta el archivo descargado.
 
 ### Instalación
+
 Ejecuta el wizard.
 ![Step1](img/img3.png)
 
@@ -85,25 +86,25 @@ Si ambas ejecuciones te muestran alguna versión de Java instalada, como Open JD
 Abre la página [Adopt Open JDK](https://adoptopenjdk.net/).
 
 Selecciona la opción OpenJDK 12, y la JVM Hotspot. Descarga el archivo y ejecútalo.
-![Version](img/img_mac_1.jpg)
+![Version](img/img_mac_1.png)
 
-### Instalación
+### Instalación
 Continúa el instalador hasta que Java haya sido instalado en en la ruta:
 `/Library/Java/JavaVirtualMachines/`
 
-![Instalador](img/img_mac_2.jpg)
-![Instalador](img/img_mac_4.jpg)
+![Instalador](img/img_mac_2.png)
+![Instalador](img/img_mac_4.png)
 
 
 ### Verificación
 De nuevo en la Terminal, ejecuta el siguiente comando:
 `ls /Library/Java/JavaVirtualMachines/`
 
-![Instalador](img/img_mac_5.jpg)
+![Instalador](img/img_mac_5.png)
 
 Aquí deberías de poder ver la instalación `adoptopenjdk-11.jdk`. Si logras ver el folder, ejecuta los comandos:
 `java -version`
 `javac -version`
 
 
-![Verificacion](img/img_mac_6.jpg)
+![Verificacion](img/img_mac_6.png)
