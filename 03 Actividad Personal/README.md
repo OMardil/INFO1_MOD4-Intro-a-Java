@@ -1,20 +1,18 @@
 # Instalación de Java
 ## Windows
-### 1.
+### 1. Descargar Java
 Abre la página [Java Platform (JDK) 12](https://www.oracle.com/technetwork/java/javase/downloads/index.html).
 
-### 2.
-Hacer click en Download
+Haz click en Download
 ![Image](img/img1.png)
 
-### 3
 Navega hasta la parte que indica la plataforma. Acepta la ligencia y elige la versión ejecutable (con terminación .exe): 
 `jdk-12.0.2_windows-x64_bin.exe`
 ![Image](img/img2.png)
 
 Descárga el JDK y haz doble click sobre el archivo.
 
-### 4
+### Instalación
 Ejecuta el instalador hasta que Java sea instalado en tu computadora.
 ![Step1](img/img3.png)
 
@@ -22,9 +20,47 @@ Identifica el folder en el que estás realizando la instalación. Por defecto, J
 `C:\Program Files\Java\jdk-12.0.2\`
 ![Step1](img/img4.png)
 
-![Step1](img/img5.png)
-![Step1](img/img6.png)
+![Step2](img/img5.png)
+![Step3](img/img6.png)
 
 Cierra el instalador y abre `Command Prompt` haciendo click en <kbd>Win</kbd> + <kbd>R</kbd>.
 
+![Step4](img/img6_1.png)
+
+En consola, escribe la instrucción
+`java`
+
+El mensaje `'java' is not recognized as an internal or external command,
+operable program or batch file.` deberá aparecer.
+
+![Step5](img/img6_3.png)
+
+### Editar variables de entorno
+En el menú Start, busca `This PC` (`Este Equipo` en español.) Haz click derecho sobre el ícono y selecciona la opción `Properties`. 
+
+Selecciona la opción `Advanced System Settings`.
+![Step1](img/img8.png)
+
+Haz click sobre `Environmental Variables...`
+![Step2](img/img9.png)
+
+En la sección de `System variables`, selecciona `Path` y haz click sobre `Edit`.
+![Step3](img/img10.png)
+
+Agrega una nueva entrada en la lista de entradas haciendo click sobre `New` e insertando la ruta en donde Java está instalado, incluyendo el folder `bin`: `C:\Program Files\Java\jdk-12.0.2\bin`. 
+![Step4](img/img11.png)
+![Step5](img/img12.png)
+
+Haz click en `OK` para salir.
+
+### Verificar instalación
+Vuelve a abrir `Command Prompt` haciendo click en <kbd>Win</kbd> + <kbd>R</kbd>.
+
+![Step4](img/img6_1.png)
+
+En consola, escribe la instrucción
+`java -version`
+
+La versión que elegiste al instalar la aplicación deberá aparecer aquí.
+![Step5](img/img13.png)
 ## Mac OS X
