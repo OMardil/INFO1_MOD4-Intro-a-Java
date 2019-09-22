@@ -72,13 +72,13 @@ La versión que elegiste al instalar la aplicación deberá aparecer aquí.
 
 ### ¿Necesito descargar Java?
 Antes de realizar los siguientes pasos, abre una sesión de Terminal. Para esto, busca el programa el Spotlight. 
-![Version](img/img_mac_0_1.jpg)
+![Version](img/img_mac_0_1.png)
 
 En Terminal, escribe las siguientes instrucciones:
 `java -version`
 `javac -version`
 
-![Version](img/img_mac_0_2.jpg)
+![Version](img/img_mac_0_2.png)
 
 Si ambas ejecuciones te muestran alguna versión de Java instalada, como Open JDK o AdoptOpenJDK, no es necesario que continúes con este proceso, pues ya tienes Java instalado 😉. 
 
