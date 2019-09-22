@@ -29,10 +29,12 @@ Descarga JRE desde [la página oficial de Oracle](https://www.java.com/en/downlo
 Abre la consola de configuración de Java:
 
 **Windows**
+
 Desde la barra de búsqueda, busca la opción `Configure Java`
 ![](img/progranimate/step8.png)
 
 **Mac OS X**
+
 Abre `System Preferences`, y haz click sobre el ícono `Java`. Esto abre la pestaña adicional `Java Control Panel`.
 
 Navega a la pestaña `Security`.
