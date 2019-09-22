@@ -1,7 +1,7 @@
 # Install Progranimate
 
 ### 1. Descargar
-Ve a la página [Progranimate](http://www.progranimate.com/). En el menú izquierdo, elige "Launch Progranimate".
+Ve a [la página oficial de Progranimate](http://www.progranimate.com/). En el menú izquierdo, elige "Launch Progranimate".
 
 ![](img/progranimate/step1.png)
 Selecciona `Java_Code` y haz click en `_START_`.
@@ -13,7 +13,7 @@ Descarga Progranimate el el directorio de tu computadora que elijas.
 ### 2. Instalacion Java Runtime Environment
 El JRE (Java Runtime Environment) es un ambiente para poder ejecutar programas codificados en Java. Contiene las librerías y máquina virtual necesaria para ejecutar programas en Java, pero no para crear programas nuevos.
 
-Descarga JRE desde [](https://www.java.com/en/download/) y haz doble click sobre archivo descargado en tu computadora para comenzar la instalación.
+Descarga JRE desde [la página oficial de Oracle](https://www.java.com/en/download/) y haz doble click sobre archivo descargado en tu computadora para comenzar la instalación.
 ![](img/progranimate/step4.png)
 ![](img/progranimate/step5.png)
 ![](img/progranimate/step6.png)
