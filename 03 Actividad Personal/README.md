@@ -80,13 +80,36 @@ En Terminal, escribe las siguientes instrucciones:
 
 ![Version](img/img_mac_0_2.png)
 
-Si ambas ejecuciones te muestran alguna versión de Java instalada, como Open JDK o AdoptOpenJDK, no es necesario que continúes con este proceso, pues ya tienes Java instalado 😉. 
+Si ambas ejecuciones te muestran alguna versión de Java instalada, como Open JDK o AdoptOpenJDK, no es necesario que continúes con este proceso, pues ya tienes el Java Development Kit instalado 😉. 
 
 ### Descargar
-Abre la página [Adopt Open JDK](https://adoptopenjdk.net/).
+Si no tienes Java JDK instalado, te aparecera un mensaje que te dirige hacia la página de descarga del JDK. Haz click sobre `More Info` para ir a ella.
 
-Selecciona la opción OpenJDK 12, y la JVM Hotspot. Descarga el archivo y ejecútalo.
-![Version](img/img_mac_1.png)
+
+Selecciona la opción `Download` 
+
+![Download](img/mac_step2.png)
+
+Elige la opción `jdk-13_osx-x64_bin.dmg`.
+
+![Download](img/mac_step4.png)
+
+Cuando termine la descarga, abre el instalador y haz doble click sobre el archivo `JDK 13.pkg`.
+
+![Install 1](img/mac_step5.png)
+
+Continúa con la instalación hasta terminar.
+
+![Install 2](img/mac_step6.png)
+
+De nuevo sobre `Terminal`, ejecuta la instrucción:  
+`javac -version`
+
+La versión de Java instalada aparecerá en pantalla de la siguiente manera:
+
+![Verify](img/mac_step7.png)
+
+
 
 ### Instalación
 Continúa el instalador hasta que Java haya sido instalado en en la ruta:
