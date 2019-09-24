@@ -13,6 +13,8 @@ Descarga Progranimate el el directorio de tu computadora que elijas.
 
 ![](img/progranimate/step3.png)
 
+**Por el momento no ejecutaremos el archivo descargado.**
+
 ### 2. Instalacion Java Runtime Environment
 > El JRE (Java Runtime Environment) es un ambiente para poder ejecutar programas codificados en Java. Contiene las librerías y máquina virtual necesaria para ejecutar programas en Java, pero no para crear programas nuevos. Una de las principales ventajas de Java es que es multiplataforma, es decir, el mismo programa de Java puede ejecutarse tanto en Windows, Mac, Linux, Android, etc.
 
@@ -36,6 +38,7 @@ Abre la consola de configuración de Java:
 > **Mac OS X**
 > 
 > Abre `System Preferences`, y haz click sobre el ícono `Java`. Esto abre la pestaña adicional `Java Control Panel`.
+> ![](img/progranimate/mac_step_java.png)
 
 Navega a la pestaña `Security`.
 
