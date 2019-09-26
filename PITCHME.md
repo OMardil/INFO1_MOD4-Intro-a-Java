@@ -45,7 +45,8 @@
     "backgroundColor":["#3e95cd","#8e5ea2","#3cba9f","#e8c3b9","#c45850", "#FF5733","#FFCA33", "#33AAFF"]
    }]
  },
- "options": { "responsive": "true" }
+ "options": { "responsive": "true" },
+ "showDatapoints": "true",
 }
 -->
 </canvas>
