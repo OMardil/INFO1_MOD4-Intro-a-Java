@@ -11,7 +11,7 @@ theme-byline     : [ "Montserrat", "#111111", "none" ]
 theme-text       : [ "Raleway", "#333", "none" ]
 theme-links      : [ "#7FDBFF", "#0074D9" ]
 theme-controls   : [ "#C0C0C0" ]
-theme-code       : [ "Fira Code" ]
+theme-code       : [ "Source Code Pro" ]
 
 highlight        : tomorrow
 
