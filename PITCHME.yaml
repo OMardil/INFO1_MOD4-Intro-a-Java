@@ -3,16 +3,18 @@
 #
 theme            : template
 
-theme-background : [ "linear-gradient(180deg, white 75%, black 25%)" ]
-theme-headline   : [ "Montserrat", "#93C54B", "none" ]
+theme            : template
+
+theme-background : [ "linear-gradient(100deg, white 90%, #BE5869 10%)" ]
+theme-headline   : [ "Montserrat", "#BE5869", "none" ]
 theme-byline     : [ "Montserrat", "#111111", "none" ]
-theme-text       : [ "Raleway", "#1C1C1C", "none" ]
-theme-links      : [ "#62A503", "#718C00" ]
-theme-code       : [ "Fira Code" ]
+theme-text       : [ "Raleway", "#333", "none" ]
+theme-links      : [ "#7FDBFF", "#0074D9" ]
 theme-controls   : [ "#C0C0C0" ]
-theme-margins    : [ "0", "15px" ]
+theme-code       : [ "Fira Code" ]
 
 highlight        : tomorrow
+
 
 
 # Theme-Override Setting
