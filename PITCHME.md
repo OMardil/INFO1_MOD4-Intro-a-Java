@@ -34,7 +34,7 @@
 
 +++ 
 ## TIOBE Rating
-![TIOBE_Rating](/assets/image/TIOBE_Rating.png)
+![TIOBE_Rating](/assets/image/TIOBE_rating.png)
 
 [Source](https://www.tiobe.com/tiobe-index/)
 
