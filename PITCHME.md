@@ -34,22 +34,7 @@
 
 +++ 
 ## TIOBE Rating
-<canvas data-chart="pie">
-<!--
-{
- "data": {
-  "labels": [" Java"," C"," Python"," C++"," C#"," Visual Basic .NET"," Javascript", " Others"],
-  "datasets": [{
-    "data":[16.61,15.20,9.87,5.64,3.40,3.29,2.19, 43.8],
-    "label":"% Usage",
-    "backgroundColor":["#3e95cd","#8e5ea2","#3cba9f","#e8c3b9","#c45850", "#FF5733","#FFCA33", "#33AAFF"]
-   }]
- },
- "options": { "responsive": "true" },
- "showDatapoints": "true",
-}
--->
-</canvas>
+![TIOBE_Rating](/assets/image/TIOBE_Rating.png)
 
 [Source](https://www.tiobe.com/tiobe-index/)
 
