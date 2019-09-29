@@ -94,7 +94,7 @@ Elige la opción `jdk-13_osx-x64_bin.dmg`.
 
 ![Download](img/mac_step4.png)
 
-Cuando termine la descarga, abre el instalador y haz doble click sobre el archivo `JDK 13.pkg`.
+Cuando termine la descarga, abre el instalado  r y haz doble click sobre el archivo `JDK 13.pkg`.
 
 ![Install 1](img/mac_step5.png)
 
