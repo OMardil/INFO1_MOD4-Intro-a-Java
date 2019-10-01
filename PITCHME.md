@@ -9,7 +9,7 @@ Internamente, el hardware de los CPUs contiene una tabla de instrucciones que pu
 <br><br>
 @snapend
 
-@snap[span-90 text-08 fragment]
+@snap[span-90 text-08]
 Cada vez que el CPU recibe una grupo de bits, se detiene, verifica qué operación está solicitando ejecutar, y la lleva a cabo.
 <br><br>
 @snapend
@@ -30,7 +30,7 @@ Imaginemos que un CPU recibe la siguiente instrucción:
 @snapend
 
 
-@snap[span-90 fragment text-08]
+@snap[span-90 text-08]
 Esta se divide en dos partes:
 <br>
 @css[text-pink](Opcode = Operation code) <br>
@@ -89,13 +89,13 @@ Hay muchos lenguajes de programación, por ejemplo:<br>
 <br><br>
 @snapend
 
-@snap[span-90 text-08 fragment]
+@snap[span-90 text-08]
 Los lenguajes de programación clasificamos dependiendo de qué tanto se parecen al @css[text-pink](lenguaje natural).
 @snapend
 
 +++
 ### Low-level Languages
-@ul[text-08]
+@ul[text-08](false)
 * Altamente atados a un cierto procesador o pieza de hardware. @css[text-pink](¡Baja portabilidad!)
 * El procesador lo entiende directamente, por lo que la @css[text-pink](ejecución es directa y rápida).
 * Son muy @css[text-pink](difíciles de entender) o de mantener.
@@ -108,7 +108,7 @@ Los lenguajes de programación clasificamos dependiendo de qué tanto se parecen
 
 +++
 ### High-level languages
-@ul[text-08]
+@ul[text-08](false)
 * Diseñados para que los programas puedan ser ejecutados en distintas plataformas y arquitecturas. @css[text-pink](Alta portabilidad)
 * Estos lenguajes contienen muchas palabras en inglés, y generalmente son @css[text-pink](fáciles de entender) por las personas.
 * La ejecución de estos programas requiere que la computadora @css[text-pink](convierta e interprete el código).
@@ -141,7 +141,7 @@ Los lenguajes de programación de @css[text-pink](alto nivel) son @css[text-blue
 Es un lenguaje de programación de @css[text-pink](alto nivel) que se ejecuta en una JVM (Java Virtual Machine).
 Sus principales fortalezas son:
 <br>
-@ul[text-08]
+@ul[text-08](false)
 * Cross-platform @css[text-pink](@fa[language] @fa[globe-europe])
 * Permite desarrollar aplicaciones móviles, web, videojuegos y software de servidor. @css[text-pink](@fa[server] @fa[database])
 * Orientado a Objetos @css[text-pink](@fa[laptop])
@@ -151,19 +151,19 @@ Sus principales fortalezas son:
 @snapend
 
 +++
-@snap[span-50 fragment west]
+@snap[span-50 west]
 ![Java](assets/img/java.png)
 @snapend
 
-@snap[span-50 fragment north-east]
+@snap[span-50 north-east]
 ![Twitter](assets/img/Twitter-Logo.png)
 @snapend
 
-@snap[span-50 fragment south]
+@snap[span-50 south]
 ![Twitter](assets/img/android.png)
 @snapend
 
-@snap[span-50 fragment south-east]
+@snap[span-50 south-east]
 ![Minecraft](assets/img/minecraft.png)
 @snapend
 
@@ -182,7 +182,7 @@ El compilador genera un archivo de bytecode.
 El compilador es un programa que se encarga de convertir un archivo de código fuente (**source code**) en un archivo de código objeto (**object code**).
 
 Para realizar esta traducción, el compilador
-@ol[text-08]
+@ol[text-08](false)
 * Lee los archivos de código fuente. @fa[file-code]
 * Realiza verificaciones léxicas, sintácticas y semánticas. @css[text-green](@fa[check]@fa[check]@fa[check])
 * Genera los archivos de código objeto. @fa[file-excel]
@@ -192,13 +192,13 @@ Para realizar esta traducción, el compilador
 ### ¿Cómo funciona Java?
 
 @snap[span-90]
-@box[bg-green text-white box-padding fragment text-07](1. Source Code#El programador genera un archivo de código fuente (source code))
+@box[bg-green text-white box-padding text-07](1. Source Code#El programador genera un archivo de código fuente (source code))
 
-@box[bg-orange text-white rounded box-padding fragment text-07](2. Compilación#El compilador revisa la sintaxis del código. Si es correcto, genera un archivo de bytecode. Este archivo tiene el formato .class)
+@box[bg-orange text-white rounded box-padding text-07](2. Compilación#El compilador revisa la sintaxis del código. Si es correcto, genera un archivo de bytecode. Este archivo tiene el formato .class)
 
-@box[bg-pink text-white box-padding fragment text-07](3. Bytecode#La Java Virtual Machine carga y verifica el bytecode.)
+@box[bg-pink text-white box-padding text-07](3. Bytecode#La Java Virtual Machine carga y verifica el bytecode.)
 
-@box[bg-blue text-white waved box-padding fragment text-07](4. Execution Engine# El Execution Engine carga las clases necesarias y ejecuta las instrucciones utilizando Just in Time compiling.)
+@box[bg-blue text-white waved box-padding text-07](4. Execution Engine# El Execution Engine carga las clases necesarias y ejecuta las instrucciones utilizando Just in Time compiling.)
 @snapend
 
 +++?image=/assets/img/Java_architecture.png&size=contain
@@ -207,7 +207,7 @@ Para realizar esta traducción, el compilador
 +++ 
 ### Java Virtual Machine
 Java funciona sobre un ambiente de ejecución que es independiente de la plataforma, llamado __Java Virtual Machine__ **(JVM)**. Durante la ejecución, este ambiente está cargado en la RAM. Esta tiene tres funciones:
-@ol[text-08]
+@ol[text-08](false)
 * Extraer el bytecode (.class) e interpretarlo según la plataforma que lo está ejecutando (Android, Windows, Mac, Linux, celular)
 * Asegurarse que el bytecode es seguro.
 * ¡Ejecutar los programas!
@@ -226,7 +226,7 @@ Java funciona sobre un ambiente de ejecución que es independiente de la platafo
 
 ---
 ### Antes de comenzar...
-@ul[fragment]
+@ul[](false)
 * El código @css[text-pink](no puede tener errores de ortografía o de sintaxis). __"El perro salió a komer"__ . ¡Nosotros lo entendemos, la computadora no!
 * MAYÚSCULAS y minúsculas @css[text-pink](hacen diferencia).
 * La identación y los espacios son flexibles. 
