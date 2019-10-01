@@ -57,8 +57,7 @@ published : true
 
 #
 # Code lines
-code-line-numbers : false
-
+code-line-numbers : true
 #
 # Remote settings
 remote-control : true

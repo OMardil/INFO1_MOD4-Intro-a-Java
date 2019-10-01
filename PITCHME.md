@@ -104,7 +104,7 @@ Los lenguajes de programación clasificamos dependiendo de qué tanto se parecen
 @ulend
 
 +++?code=/assets/src/assembler.s
-@css[text-pink text-08](Ejemplo código en un lenguaje de programación de alto nivel.)
+@css[text-pink text-08](Ejemplo código en un lenguaje de programación de bajo nivel.)
 
 +++
 ### High-level languages
@@ -202,6 +202,7 @@ Para realizar esta traducción, el compilador
 @snapend
 
 +++?image=/assets/img/Java_architecture.png&size=contain
++++?image=/assets/img/3_billion_devices.png&size=contain
 
 +++ 
 ### Java Virtual Machine
@@ -237,3 +238,17 @@ Java funciona sobre un ambiente de ejecución que es independiente de la platafo
 @snap[midpoint h3-white span-100]
 ### The only way to learn a new programming language is by writing programs in it. -Dennis Ritchie
 @snapend
+
++++
+# Hello, World!
+
++++?code=/assets/src/HelloWorld.java
+@[1](El nombre de la clase es `HelloWorld`. Es importante que el nombre del archivo generado de java se llame igual que la clase + .java. En este caso, debería ser `HelloWorld.java` ).
+
+@[1,9](Seguido del nombre de la clase vienen las llaves `{` `}` Cada llave abierta implica que debe cerrarse más adelante la llave).
+
+@[3,7](Se puede observar la declaración del método main. Todo lo que esté dentro de esta sección, dentro de las llaves, es el código del programa.)
+
+@[5](Esta sentencia indica la llamada del método `println` de la clase `System.out`. Adentro podemos ver el `String` que se desplegará al ejecutar el programa: `Hello, World!`)
+
+@[1-9]
