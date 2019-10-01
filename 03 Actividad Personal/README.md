@@ -34,7 +34,7 @@ En consola, escribe la instrucción
 El mensaje `'java' is not recognized as an internal or external command,
 operable program or batch file.` deberá aparecer.
 
-NOTA: En este momento Java ya está instalado y es utilizable, pero 
+NOTA: En este momento Java ya está instalado y es utilizable, pero no se encuentra configurado para ser utilizado directamente a través de la línea de comandos.
 
 ![Step5](img/img6_3.png)
 
