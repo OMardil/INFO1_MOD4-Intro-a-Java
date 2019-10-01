@@ -84,17 +84,17 @@ Si ambas ejecuciones te muestran alguna versión de Java instalada, como Open JD
 
 ### Descargar
 Si no tienes Java JDK instalado, te aparecera un mensaje que te dirige hacia la página de descarga del JDK. Haz click sobre `More Info` para ir a ella.
-
+![More Info](img/mac_step1.png)
 
 Selecciona la opción `Download` 
 
 ![Download](img/mac_step2.png)
 
-Elige la opción `jdk-13_osx-x64_bin.dmg`.
+Elige la opción `jdk-13_osx-x64_bin.dmg` para Mac OS X.
 
 ![Download](img/mac_step4.png)
 
-Cuando termine la descarga, abre el instalado  r y haz doble click sobre el archivo `JDK 13.pkg`.
+Cuando termine la descarga, abre el instalador y haz doble click sobre el archivo `JDK 13.pkg`.
 
 ![Install 1](img/mac_step5.png)
 
@@ -108,26 +108,3 @@ De nuevo sobre `Terminal`, ejecuta la instrucción:
 La versión de Java instalada aparecerá en pantalla de la siguiente manera:
 
 ![Verify](img/mac_step7.png)
-
-
-
-### Instalación
-Continúa el instalador hasta que Java haya sido instalado en en la ruta:
-`/Library/Java/JavaVirtualMachines/`
-
-![Instalador](img/img_mac_2.png)
-![Instalador](img/img_mac_4.png)
-
-
-### Verificación
-De nuevo en la Terminal, ejecuta el siguiente comando:
-`ls /Library/Java/JavaVirtualMachines/`
-
-![Instalador](img/img_mac_5.png)
-
-Aquí deberías de poder ver la instalación `adoptopenjdk-11.jdk`. Si logras ver el folder, ejecuta los comandos:
-`java -version`
-`javac -version`
-
-
-![Verificacion](img/img_mac_6.png)
