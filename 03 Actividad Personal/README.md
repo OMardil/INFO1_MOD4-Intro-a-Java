@@ -41,6 +41,9 @@ NOTA: En este momento Java ya está instalado y es utilizable, pero no se encuen
 ### Editar variables de entorno
 En el menú Start, busca `This PC` (`Este Equipo` en español.) Haz click derecho sobre el ícono y selecciona la opción `Properties`. 
 
+![Step5](img/img7.png)
+
+
 Selecciona la opción `Advanced System Settings`.
 ![Step1](img/img8.png)
 
@@ -63,6 +66,8 @@ Vuelve a abrir `Command Prompt` haciendo click en <kbd>Win</kbd> + <kbd>R</kbd>.
 
 En consola, escribe la instrucción
 `java -version`
+y
+`javac -version`
 
 La versión que elegiste al instalar la aplicación deberá aparecer aquí.
 ![Step5](img/img13.png)
