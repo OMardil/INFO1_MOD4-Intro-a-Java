@@ -60,7 +60,7 @@ Agrega una nueva entrada en la lista de entradas haciendo click sobre `New` e in
 Haz click en `OK` para salir.
 
 ### Verificar instalación
-Vuelve a abrir `Command Prompt` haciendo click en <kbd>Win</kbd> + <kbd>R</kbd>.
+Vuelve a abrir `Command Prompt` haciendo click en <kbd>Win</kbd> + <kbd>R</kbd>, e insertando la instrucción `cmd`.
 
 ![Step4](img/img6_1.png)
 
@@ -72,6 +72,7 @@ y
 La versión que elegiste al instalar la aplicación deberá aparecer aquí.
 ![Step5](img/img13.png)
 
+**TOMA UN SCREENSHOT DE ESTA EVIDENCIA PARA ENTREGAR MEDIANTE BLACKBOARD.**
 
 ## Mac OS X
 
@@ -113,3 +114,5 @@ De nuevo sobre `Terminal`, ejecuta la instrucción:
 La versión de Java instalada aparecerá en pantalla de la siguiente manera:
 
 ![Verify](img/mac_step7.png)
+
+**TOMA UN SCREENSHOT DE ESTA EVIDENCIA PARA ENTREGAR MEDIANTE BLACKBOARD.**
