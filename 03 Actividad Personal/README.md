@@ -72,7 +72,7 @@ y
 La versión que elegiste al instalar la aplicación deberá aparecer aquí.
 ![Step5](img/img13.png)
 
-**TOMA UN SCREENSHOT DE ESTA EVIDENCIA PARA ENTREGAR MEDIANTE BLACKBOARD.**
+**NOTA: TOMA UN SCREENSHOT DE ESTA EVIDENCIA PARA ENTREGAR MEDIANTE BLACKBOARD.**
 
 ## Mac OS X
 
@@ -115,4 +115,4 @@ La versión de Java instalada aparecerá en pantalla de la siguiente manera:
 
 ![Verify](img/mac_step7.png)
 
-**TOMA UN SCREENSHOT DE ESTA EVIDENCIA PARA ENTREGAR MEDIANTE BLACKBOARD.**
+**NOTA: TOMA UN SCREENSHOT DE ESTA EVIDENCIA PARA ENTREGAR MEDIANTE BLACKBOARD.**
