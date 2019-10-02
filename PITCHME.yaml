@@ -16,6 +16,8 @@ theme-code       : [ "Source Code Pro" ]
 highlight        : tomorrow
 
 
+.shocking-green { color : #00FF00; }
+
 
 # Theme-Override Setting
 # Doc: https://gitpitch.com/docs/settings/custom-theme
@@ -39,7 +41,7 @@ layout : top-left
 # Footnote Setting
 # Doc: https://gitpitch.com/docs/settings/footnote
 #
-footnote : "Lógica boleana"
+footnote : "Intro a Java"
 
 # Transition
 transition : none
@@ -55,8 +57,7 @@ published : true
 
 #
 # Code lines
-code-line-numbers : false
-
+code-line-numbers : true
 #
 # Remote settings
 remote-control : true
@@ -69,6 +70,6 @@ mathjax : TeX-MML-AM_HTMLorMML-full
 # Twitter Card Settings [Pro Only]
 # Doc: https://gitpitch.com/docs/settings/twitter-card
 #
-title : "Lógica boleana"
-description : "Lógica boleana."
+title : "Intro a Java"
+description : "Intro a Java"
 thumbnail : https://gitpitch.com/gpimg/tutorial-thumb.png

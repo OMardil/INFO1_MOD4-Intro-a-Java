@@ -53,6 +53,11 @@ Haz doble click sobre el programa que descargamos en el paso #1 `progranimate2.j
 
 ![](img/progranimate/step11.png)
 
+
+> **Mac OS X**
+> Después de ejecutar Progranimate, algunas versiones de Mac OS X bloquean la ejecución directa de programas no aprobados por Apple. Como Progranimate salió antes de esta certificación, hay que especificarle al sistema operativo que queremos ejecutarlo. Para esto, abre la sección de `Security & Privacy`. Aquí, haz click en el botón `Allow`.
+![](img/progranimate/step12_2.png)
+
 Listo! Ya puedes comenzar a utilizar el programa.
 
 ![](img/progranimate/step12.png)

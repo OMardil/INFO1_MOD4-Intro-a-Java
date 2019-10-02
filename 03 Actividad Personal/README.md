@@ -34,12 +34,15 @@ En consola, escribe la instrucción
 El mensaje `'java' is not recognized as an internal or external command,
 operable program or batch file.` deberá aparecer.
 
-NOTA: En este momento Java ya está instalado y es utilizable, pero 
+NOTA: En este momento Java ya está instalado y es utilizable, pero no se encuentra configurado para ser utilizado directamente a través de la línea de comandos.
 
 ![Step5](img/img6_3.png)
 
 ### Editar variables de entorno
 En el menú Start, busca `This PC` (`Este Equipo` en español.) Haz click derecho sobre el ícono y selecciona la opción `Properties`. 
+
+![Step5](img/img7.png)
+
 
 Selecciona la opción `Advanced System Settings`.
 ![Step1](img/img8.png)
@@ -57,16 +60,19 @@ Agrega una nueva entrada en la lista de entradas haciendo click sobre `New` e in
 Haz click en `OK` para salir.
 
 ### Verificar instalación
-Vuelve a abrir `Command Prompt` haciendo click en <kbd>Win</kbd> + <kbd>R</kbd>.
+Vuelve a abrir `Command Prompt` haciendo click en <kbd>Win</kbd> + <kbd>R</kbd>, e insertando la instrucción `cmd`.
 
 ![Step4](img/img6_1.png)
 
 En consola, escribe la instrucción
 `java -version`
+y
+`javac -version`
 
 La versión que elegiste al instalar la aplicación deberá aparecer aquí.
 ![Step5](img/img13.png)
 
+**NOTA: TOMA UN SCREENSHOT DE ESTA EVIDENCIA PARA ENTREGAR MEDIANTE BLACKBOARD.**
 
 ## Mac OS X
 
@@ -84,13 +90,13 @@ Si ambas ejecuciones te muestran alguna versión de Java instalada, como Open JD
 
 ### Descargar
 Si no tienes Java JDK instalado, te aparecera un mensaje que te dirige hacia la página de descarga del JDK. Haz click sobre `More Info` para ir a ella.
-
+![More Info](img/mac_step1.png)
 
 Selecciona la opción `Download` 
 
 ![Download](img/mac_step2.png)
 
-Elige la opción `jdk-13_osx-x64_bin.dmg`.
+Elige la opción `jdk-13_osx-x64_bin.dmg` para Mac OS X.
 
 ![Download](img/mac_step4.png)
 
@@ -109,25 +115,4 @@ La versión de Java instalada aparecerá en pantalla de la siguiente manera:
 
 ![Verify](img/mac_step7.png)
 
-
-
-### Instalación
-Continúa el instalador hasta que Java haya sido instalado en en la ruta:
-`/Library/Java/JavaVirtualMachines/`
-
-![Instalador](img/img_mac_2.png)
-![Instalador](img/img_mac_4.png)
-
-
-### Verificación
-De nuevo en la Terminal, ejecuta el siguiente comando:
-`ls /Library/Java/JavaVirtualMachines/`
-
-![Instalador](img/img_mac_5.png)
-
-Aquí deberías de poder ver la instalación `adoptopenjdk-11.jdk`. Si logras ver el folder, ejecuta los comandos:
-`java -version`
-`javac -version`
-
-
-![Verificacion](img/img_mac_6.png)
+**NOTA: TOMA UN SCREENSHOT DE ESTA EVIDENCIA PARA ENTREGAR MEDIANTE BLACKBOARD.**
