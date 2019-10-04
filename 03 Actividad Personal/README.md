@@ -1,7 +1,3 @@
-{% capture javaVersion %}`jdk-13`{% endcapture %}
-
-
-
 # Instalación de Java
 ## Windows
 ### 1. Descargar Java
@@ -22,7 +18,7 @@ Ejecuta el wizard.
 ![Step1](img/img3.png)
 
 Identifica el folder en el que se está realizando la instalación. Por defecto, Java propone:
-`C:\Program Files\Java\`{{ javaVersion }}`\`
+`C:\Program Files\Java\jdk-13`
 ![Step1](img/img4.png)
 
 ![Step2](img/img5.png)
