@@ -1,9 +1,9 @@
 # Instalación de Java
 ## Windows
 ### 1. Descargar Java
-Abre la página [Java Platform (JDK) 12](https://www.oracle.com/technetwork/java/javase/downloads/index.html).
+Abre la página [Java Platform (JDK) 13](https://www.oracle.com/technetwork/java/javase/downloads/index.html).
 
-En la sección Java Platform (JDK) 12, haz click en DOWNLOAD.
+En la sección Java Platform (JDK) 13, haz click en DOWNLOAD.
 ![Image](img/img1.png)
 
 Navega hasta la parte de abajo, y selecciona la versión de `Windows`. Acepta la ligencia y elige la versión ejecutable (con terminación .exe): 
@@ -18,7 +18,7 @@ Ejecuta el wizard.
 ![Step1](img/img3.png)
 
 Identifica el folder en el que se está realizando la instalación. Por defecto, Java propone:
-`C:\Program Files\Java\jdk-12.0.2\`
+`C:\Program Files\Java\jdk-13\`
 ![Step1](img/img4.png)
 
 ![Step2](img/img5.png)
@@ -53,7 +53,7 @@ Haz click sobre `Environmental Variables...`
 En la sección de `System variables`, selecciona `Path` y haz click sobre `Edit`.
 ![Step3](img/img10.png)
 
-Agrega una nueva entrada en la lista de entradas haciendo click sobre `New` e insertando la ruta en donde Java está instalado, incluyendo el folder `bin`: `C:\Program Files\Java\jdk-12.0.2\bin`. 
+Agrega una nueva entrada en la lista de entradas haciendo click sobre `New` e insertando la ruta en donde Java está instalado, incluyendo el folder `bin`: `C:\Program Files\Java\jdk-13\bin`. **VERIFICA QUE ESTA RUTA EXISTA EN TU COMPUTADORA, pues es posible que hayas elegido una ruta distinta.**
 ![Step4](img/img11.png)
 ![Step5](img/img12.png)
 
