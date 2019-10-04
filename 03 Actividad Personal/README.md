@@ -1,3 +1,7 @@
+{% capture javaVersion %}`jdk-13`{% endcapture %}
+
+
+
 # Instalación de Java
 ## Windows
 ### 1. Descargar Java
@@ -7,7 +11,7 @@ En la sección Java Platform (JDK) 13, haz click en DOWNLOAD.
 ![Image](img/img1.png)
 
 Navega hasta la parte de abajo, y selecciona la versión de `Windows`. Acepta la ligencia y elige la versión ejecutable (con terminación .exe): 
-`jdk-12.0.2_windows-x64_bin.exe`
+`jdk-13_windows-x64_bin.exe`
 ![Image](img/img2.png)
 
 Descarga y ejecuta el archivo descargado.
@@ -18,7 +22,7 @@ Ejecuta el wizard.
 ![Step1](img/img3.png)
 
 Identifica el folder en el que se está realizando la instalación. Por defecto, Java propone:
-`C:\Program Files\Java\jdk-13\`
+`C:\Program Files\Java\`{{ javaVersion }}`\`
 ![Step1](img/img4.png)
 
 ![Step2](img/img5.png)
@@ -65,8 +69,6 @@ Vuelve a abrir `Command Prompt` haciendo click en <kbd>Win</kbd> + <kbd>R</kbd>,
 ![Step4](img/img6_1.png)
 
 En consola, escribe la instrucción
-`java -version`
-y
 `javac -version`
 
 La versión que elegiste al instalar la aplicación deberá aparecer aquí.
@@ -81,12 +83,11 @@ Antes de realizar los siguientes pasos, abre una sesión de Terminal. Para esto,
 ![Version](img/img_mac_0_1.png)
 
 En Terminal, escribe las siguientes instrucciones:
-`java -version`
 `javac -version`
 
 ![Version](img/img_mac_0_2.png)
 
-Si ambas ejecuciones te muestran alguna versión de Java instalada, como Open JDK o AdoptOpenJDK, no es necesario que continúes con este proceso, pues ya tienes el Java Development Kit instalado 😉. 
+Si te muestra alguna versión de Java instalada, como OpenJDK o jdk-13, no es necesario que continúes con este proceso, pues ya tienes el Java Development Kit instalado 😉. 
 
 ### Descargar
 Si no tienes Java JDK instalado, te aparecera un mensaje que te dirige hacia la página de descarga del JDK. Haz click sobre `More Info` para ir a ella.
